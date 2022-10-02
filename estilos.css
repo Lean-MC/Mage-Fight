@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Dirt', cursive;
+    color: azure;
+}
+
+body{
+    padding-top: 40px;
+    background-color: black;
+}
+
+button {
+    background-color: #fcfcfc;
+    box-shadow: 5px 5px 5px rgba(15, 199, 231, 0.3);
+    margin: 5px;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    height: 80vh;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.result {
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+
+}
+
+.result img {
+    width: 200px;
+    height: 100px;
+}
+
+#start-text {
+    font-size: 36px;
+    padding: 20px;
+}
+
+
+/*Nuestras Habilidades*/
+.group-btn {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    margin: 10%;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.group-btn button {
+
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    background-color: #fcfcfc;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+    margin: 5px;
+    }
+
+
+.group-btn img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*Habilidades Enemigos*/
+.btn-enemy {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    margin: 10%;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.btn-enemy button {
+
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    box-shadow: -5px 5px 5px 0px rgba(255, 255, 255, 0.3);
+}
+
+.btn-enemy img {
+    width: 100px;
+    height: 100px;
+}
+
+#player img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+#enemy img{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom: 45%;
+    right: 10%;
+
+}
+
+.gameButton2{
+    width: 290px;
+    height: 50px;
+    position: fixed;
+    bottom: 10%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.gameButton2 a{
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+}
